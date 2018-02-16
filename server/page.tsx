@@ -5,8 +5,8 @@ import { Request, Response } from 'express';
 import { renderToNodeStream } from 'react-dom/server';
 
 interface PageProps {
-  req: Request
-};
+  req: Request;
+}
 
 const Page = ({ req }: PageProps) => {
   const context = {};

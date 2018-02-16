@@ -6,7 +6,7 @@ export default () => {
   return (
     <div>
       <Header/>
-      <h1 onClick={() => console.log('hello world')}>Click</h1>
+      <h1 onClick={() => alert('hello world')}>Click</h1>
       <Footer/>
     </div>
   );
