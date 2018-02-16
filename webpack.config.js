@@ -20,7 +20,7 @@ module.exports = [
         }
     }, {
         name: 'server',
-        entry: ['./server/app.tsx'],
+        entry: ['./server/app.ts'],
         target: 'node',
         output: {
             path: path.resolve(__dirname, './lib/server'),
