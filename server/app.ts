@@ -1,4 +1,4 @@
-import * as express from 'express'
+import * as express from 'express';
 import { renderPage } from './page';
 
 const port = process.env.PORT || 8000;
